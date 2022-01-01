@@ -3,17 +3,18 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>Allows to use just a connection to access PostgreSQL in your system</Description>
+    <Description>Singleton class to access PostgreSQL. Its grant that you have just a single connection to one database.</Description>
     <AssemblyVersion>6.0.2</AssemblyVersion>
     <FileVersion>6.0.2</FileVersion>
     <PackageProjectUrl>https://github.com/hudsonventura/SinglePostgres</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/hudsonventura/SinglePostgres</PackageLicenseUrl>
+    <PackageLicense>https://github.com/hudsonventura/SinglePostgres/blob/main/LICENSE</PackageLicense>
     <Authors>Hudson Ventura</Authors>
     <Company>Hudson Ventura</Company>
     <PackageId>SinglePostgres</PackageId>
     <Product>SinglePostgres</Product>
     <Version>6.0.2</Version>
-    <AssemblyName>PostgreSingleton</AssemblyName>
+    <AssemblyName>SinglePostgres</AssemblyName>
+    <Language>dotnet</Language>
   </PropertyGroup>
 
   <ItemGroup>
